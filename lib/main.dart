@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
-        '/': (BuildContext context) {
+        '/index': (BuildContext context) {
           return MyHomePage(title: 'Flutter Demo Home Page');
         }
       },
